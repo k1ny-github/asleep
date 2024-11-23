@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: black;
+}
+
+.rectangle_1{
+    color:rgba(128, 128, 128, 0.1);
+    background-color: rgba(128, 128, 128, 0.1) ;
+    width: 1020px;
+    height: 427px;
+    
+    
+    position: absolute;
+    left: 30px;
+    top: 335px;
+
+    border-radius: 2%;
+
+}
+
+.title{
+    color: white;
+    font-size: 64px;
+    position: absolute;
+    left: 273px;
+    top: 425px;
+    
+    
+}
+
+.subtitle{
+    color: white;
+    position: absolute;
+    left: 85px;
+    top: 608px;
+    font-size: 44px;
+    
+    
+    
+}
+
+.button_1{
+    color:rgba(128, 128, 128, 0.1);
+    background-color: rgba(128, 128, 128, 0.1) ;
+    width: 331px;
+    height: 175px;
+    
+    
+    position: absolute;
+    left: 39px;
+    top: 809px;
+
+    border: none;
+    border-radius: 10%;
+}
+
+.button_2{
+    color:rgba(128, 128, 128, 0.1);
+    background-color: rgba(128, 128, 128, 0.1) ;
+    width: 331px;
+    height: 175px ;
+    
+    
+    position: absolute;
+    left:379px;
+    top:809px ;
+    border: none;
+    border-radius: 10%;
+}
+
+.button_3{
+    color:rgba(128, 128, 128, 0.1);
+    background-color: rgba(128, 128, 128, 0.1) ;
+    width:331px ;
+    height:175px ;
+    
+    
+    position: absolute;
+    left:719px ;
+    top: 809px;
+    border: none;
+    border-radius: 10%;
+}
+
+
