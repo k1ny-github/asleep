@@ -1,4 +1,5 @@
-* {
+html,body {
+    height: 150%;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -18,7 +19,7 @@ body{
     
     position: absolute;
     left: 30px;
-    top: 335px;
+    top: 0px;
 
     border-radius: 2%;
 
@@ -29,7 +30,7 @@ body{
     font-size: 64px;
     position: absolute;
     left: 273px;
-    top: 425px;
+    top: 90px;
     
     
 }
@@ -38,7 +39,7 @@ body{
     color: white;
     position: absolute;
     left: 85px;
-    top: 608px;
+    top: 273px;
     font-size: 44px;
     
     
@@ -54,7 +55,7 @@ body{
     
     position: absolute;
     left: 39px;
-    top: 809px;
+    top: 474px;
 
     border: none;
     border-radius: 10%;
@@ -69,7 +70,7 @@ body{
     
     position: absolute;
     left:379px;
-    top:809px ;
+    top:474px ;
     border: none;
     border-radius: 10%;
 }
@@ -83,7 +84,7 @@ body{
     
     position: absolute;
     left:719px ;
-    top: 809px;
+    top: 474px;
     border: none;
     border-radius: 10%;
 }
