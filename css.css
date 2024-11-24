@@ -29,18 +29,18 @@ body{
 
 .asleep{
     color: #ffd700;
-    position: absolute;
-    font-size: 1500%;
-    left: 0%;
-    top:-20%;
+    position: relative;
+    font-size: 1000%;
+    text-align: center;
+    top:0%;
 }
 
 .subtitle{
     color: white;
-    position: absolute;
-    font-size: 500%;
-    left: 0%;
-    top: 50%;
+    position: relative;
+    font-size: 450%;
+    text-align: center;
+    top: -20%;
     
     
     
@@ -48,10 +48,10 @@ body{
 
 .nachat{
     color: white;
-    position: absolute;
-    font-size: 500%;
-    left: 19%;
-    top: -10%;
+    position: relative;
+    font-size: 400%;
+    text-align: center;
+    top: 0%;
 }
 
 .button_1{
