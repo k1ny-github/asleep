@@ -1,0 +1,100 @@
+html,body {
+    height: 150%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: black;
+}
+
+.rectangle_1{
+    color:rgba(128, 128, 128, 0.1);
+    background-color: rgba(128, 128, 128, 0.1) ;
+    width: 90%;
+    height: 25%;
+    
+    
+    position: absolute;
+    left: 5%;
+    top: 3%;
+
+    border-radius: 2%;
+
+    
+}
+
+.asleep{
+    color: #ffd700;
+    position: absolute;
+    font-size: 1500%;
+    left: 0%;
+    top:-20%;
+}
+
+.subtitle{
+    color: white;
+    position: absolute;
+    font-size: 500%;
+    left: 0%;
+    top: 50%;
+    
+    
+    
+}
+
+.nachat{
+    color: white;
+    position: absolute;
+    font-size: 500%;
+    left: 19%;
+    top: -10%;
+}
+
+.button_1{
+    color:rgba(128, 128, 128, 0.1);
+    background-color: rgba(128, 128, 128, 0.1) ;
+    width: 28%;
+    height: 7%;
+    
+    
+    position: absolute;
+    left: 5%;
+    top: 29%;
+
+    border: none;
+    border-radius: 10%;
+}
+
+.button_2{
+    color:rgba(128, 128, 128, 0.1);
+    background-color: rgba(128, 128, 128, 0.1) ;
+    width: 32%;
+    height: 7% ;
+    
+    
+    position: absolute;
+    left:34%;
+    top:29% ;
+    border: none;
+    border-radius: 10%;
+}
+
+.button_3{
+    color:rgba(128, 128, 128, 0.1);
+    background-color: rgba(128, 128, 128, 0.1) ;
+    width:28% ;
+    height:7% ;
+    
+    
+    position: absolute;
+    left:67% ;
+    top: 29%;
+    border: none;
+    border-radius: 10%;
+}
+
+
