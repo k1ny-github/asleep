@@ -1,13 +1,15 @@
-from aiogram import Bot, Dispatcher, types
-from aiogram.utils import executor
+import telebot
 
-API_TOKEN = 7581408945:AAFSgjWGxW8RIXFhsx6pkwY6X_xAyLq27Ws
-bot = Bot(token=API_TOKEN)
-dp = Dispatcher(bot)
+# Создаём объект бота
+bot = telebot.TeleBot('TOKEN')
 
-@dp.message_handler(commands=['start'])
-async def send_welcome(message: types.Message):
-    await message.reply("Привет! Я бот 'A-SLEEP', дам тебе основы правильного сна!")
+# Обработчик команды /start
+@bot.message_handler(commands=['start'])
+def start_handler(message):
+    # Отправляем приветственное сообщение с именем пользователя
+    bot.send_message(message.chat.id, f'Привет, это бот "A-SLEEP" твой информационный помощник по сну {message.from_user.first_name}!')
 
-if __name__ == '__main__':
-    executor.start_polling(dp, skip_updates=True)
+# Здесь можно добавить другие обработчики команд и сообщений
+
+# Запускаем бота
+bot.polling()
