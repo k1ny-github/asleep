@@ -1,7 +1,7 @@
 import telebot
 
 # Создаём объект бота
-bot = telebot.TeleBot('TOKEN')
+bot = telebot.TeleBot('7581408945:AAFSgjWGxW8RIXFhsx6pkwY6X_xAyLq27Ws')
 
 # Обработчик команды /start
 @bot.message_handler(commands=['start'])
