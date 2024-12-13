@@ -30,7 +30,7 @@ body{
 .asleep{
     color: #ffd700;
     position: relative;
-    font-size: 200%;
+    font-size: 1000%;
     text-align: center;
     top:0%;
 }
@@ -38,7 +38,7 @@ body{
 .subtitle{
     color: white;
     position: relative;
-    font-size: 100%;
+    font-size: 450%;
     text-align: center;
     top: -20%;
     
@@ -49,7 +49,7 @@ body{
 .nachat{
     color: white;
     position: relative;
-    font-size: 100%;
+    font-size: 400%;
     text-align: center;
     top: 0%;
 }
@@ -77,10 +77,15 @@ body{
     
     
     position: absolute;
+    text-align: center;
     left:34%;
     top:29% ;
     border: none;
     border-radius: 10%;
+
+    
+    font-size: 100%;
+    color: white;
 }
 
 .button_3{
@@ -98,11 +103,3 @@ body{
 }
 
 
-.picture_1_0,
-.picture_2_0,
-.picture_3_0 {
-    width: 100vw;
-    margin-bottom: 6%;
-    margin-top: 0%;
-    border: none;
-}
