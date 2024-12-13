@@ -77,10 +77,15 @@ body{
     
     
     position: absolute;
+    text-align: center;
     left:34%;
     top:29% ;
     border: none;
     border-radius: 10%;
+
+    
+    font-size: 100%;
+    color: white;
 }
 
 .button_3{
