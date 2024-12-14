@@ -1,8 +1,8 @@
 html,body {
-    height: 110%;
+    height: 105%;
     width: 100%;
-    margin: 0;
-    padding: 0;
+    margin: 0%;
+    padding: 0%;
     box-sizing: border-box;
 }
 
@@ -35,6 +35,7 @@ h3{
     padding-bottom: 1%;
     background-size: 100% ;
     padding-left: 1%;
+    
 }
 .text1{
     color: white;
@@ -47,11 +48,12 @@ h3{
 }
 
 .close{
-    font-size: 225%; transform: rotate(45deg);
+    font-size: 24px; 
     color: black; 
     top: 1%;
-    left: 94%;
+    left: 92%;
     display: inline-block;
     font-weight: bold;
     position: absolute;
+    max-width: 0%;
 }
