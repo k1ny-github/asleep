@@ -103,4 +103,6 @@ body{
 .picture_3_0 {
     width: 100vw;
     margin-bottom: 6%;
+    
+    border: none;
 }
