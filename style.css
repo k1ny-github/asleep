@@ -23,36 +23,10 @@ body{
     top: 3%;
 
     border-radius: 2%;
-
     
 }
 
-.asleep{
-    color: #ffd700;
-    position: relative;
-    font-size: 1000%;
-    text-align: center;
-    top:0%;
-}
-
-.subtitle{
-    color: white;
-    position: relative;
-    font-size: 450%;
-    text-align: center;
-    top: -20%;
-    
-    
-    
-}
-
-.nachat{
-    color: white;
-    position: relative;
-    font-size: 400%;
-    text-align: center;
-    top: 0%;
-}
+ 
 
 .button_1{
     color:rgba(128, 128, 128, 0.1);
