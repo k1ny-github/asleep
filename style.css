@@ -1,5 +1,5 @@
 html,body {
-    height: 150%;
+    height: 105%;
     width: 100%;
     margin: 0;
     padding: 0;
@@ -12,17 +12,21 @@ body{
 }
 
 .rectangle_1{
-    color:rgba(128, 128, 128, 0.1);
-    background-image: 'Group13.svg' ;
-    width: 90%;
+    
+    
+    width: 90vw;
     height: 25%;
+    display: inline-block;
     
-    
-    position: absolute;
+    position:absolute;
     left: 5%;
     top: 3%;
 
-    border-radius: 2%;
+    border-radius: 5%;
+    border: solid black 2px;
+
+
+    
     
 }
 
@@ -39,7 +43,7 @@ body{
     left: 5%;
     top: 29%;
 
-    border: none;
+    border:solid rgb(179, 245, 0) 2px;
     border-radius: 10%;
 }
 
@@ -54,7 +58,8 @@ body{
     text-align: center;
     left:34%;
     top:29% ;
-    border: none;
+    border: solid rgb(179, 245, 0) 2px;
+
     border-radius: 10%;
 
     
@@ -72,7 +77,8 @@ body{
     position: absolute;
     left:67% ;
     top: 29%;
-    border: none;
+    border: solid rgb(179, 245, 0) 2px;
+
     border-radius: 10%;
 }
 
