@@ -14,7 +14,9 @@ body{
 
 .picture_1_0,
 .picture_2_0,
-.picture_3_0 {
+.picture_3_0,
+.picture_4_0
+{
     width: 100vw;
     margin-bottom: 6%;
     border: none;
